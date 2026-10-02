@@ -1,0 +1,17 @@
+{
+  "orders": 99441,
+  "orders_with_items": 98666,
+  "item_value_brl": 13591643.7,
+  "delivered_item_value_brl": 13221498.11,
+  "eligible_deliveries": 96470,
+  "late_deliveries": 6534,
+  "late_rate": 0.06773090079817559,
+  "mean_delivery_days": 12.558217098051976,
+  "mean_review_score": 4.086386346822333,
+  "late_mean_review": 2.270490518727472,
+  "on_time_mean_review": 4.290386055923885,
+  "orders_without_items": 775,
+  "reviews_removed_by_order_deduplication": 551,
+  "date_min": "2016-09-04",
+  "date_max": "2018-10-17"
+}

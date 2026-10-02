@@ -1,0 +1,39 @@
+{
+  "python_sql_checks": [
+    {
+      "filter": "2017/SP",
+      "orders": 17760,
+      "late": 650,
+      "eligible": 17070
+    },
+    {
+      "filter": "2018/RJ",
+      "orders": 6571,
+      "late": 871,
+      "eligible": 6342
+    },
+    {
+      "filter": "2016/BA",
+      "orders": 4,
+      "late": 0,
+      "eligible": 3
+    },
+    {
+      "filter": "Bed Bath Table",
+      "orders": 9417,
+      "item_value": 1036988.68
+    },
+    {
+      "filter": "Health Beauty",
+      "orders": 8836,
+      "item_value": 1258681.34
+    },
+    {
+      "filter": "Computers Accessories",
+      "orders": 6689,
+      "item_value": 911954.32
+    }
+  ],
+  "visual_field_and_bounds_checks": 47,
+  "native_dax_and_interactions": "Not executed; Power BI Desktop required"
+}
