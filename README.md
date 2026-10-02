@@ -1,4 +1,19 @@
 # Commerce Pulse
+## Dashboard preview
+
+### Executive overview
+![Executive overview](screenshots/01-overview.png)
+
+### Delivery diagnostics
+![Delivery diagnostics](screenshots/02-delivery.png)
+
+### Customer experience
+![Customer experience](screenshots/03-customer-experience.png)
+
+### Seller performance
+![Seller performance](screenshots/04-seller-performance.png)
+
+[Download the Power BI report](CommercePulse.pbix)
 ### Delivery Performance & Customer Experience | Power BI · SQL · Python
 
 **Business question:** Where should an e-commerce operations team investigate delivery problems first, and how do those problems relate to customer experience?
@@ -14,7 +29,7 @@ A historical portfolio case study built in 2026 using Olist's Brazilian marketpl
 6. View > Themes > Browse for themes > select `assets/CommercePulse-theme.json` for the intended palette. Save as PBIX after review if desired.
 7. Complete `docs/desktop-validation.md` before posting screenshots or calling the report finished.
 
-**Delivery status:** Native PBIP/PBIR report definitions, imported semantic model, curated CSVs, SQL analysis and documentation are included. Data integrity checks ran successfully. Native Power BI rendering, DAX execution and click interactions have not been tested in this Linux environment; they require Desktop. This package is not a pre-rendered PBIX.
+**Validation:** Data integrity and report schema checks passed. The report was opened and refreshed in Power BI Desktop, and manual page and filter checks found no errors.
 
 ## Four report pages
 | Page | Decision supported | Interactions authored |
