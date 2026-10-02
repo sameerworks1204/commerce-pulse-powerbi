@@ -2,18 +2,18 @@
 ## Dashboard preview
 
 ### Executive overview
-![Executive overview](screenshots/01-overview.png)
+![Executive overview](01-overview.png.png)
 
 ### Delivery diagnostics
-![Delivery diagnostics](screenshots/02-delivery.png)
+![Delivery diagnostics](02-delivery.png.png)
 
 ### Customer experience
-![Customer experience](screenshots/03-customer-experience.png)
+![Customer experience](03-customer-experience.png.png)
 
 ### Seller performance
-![Seller performance](screenshots/04-seller-performance.png)
+![Seller performance](%2D%2004-seller-performance.png.png)
 
-[Download the Power BI report](CommercePulse.pbix)
+[Download the Power BI report](CommercePulse_Analysis.pbix)
 ### Delivery Performance & Customer Experience | Power BI · SQL · Python
 
 **Business question:** Where should an e-commerce operations team investigate delivery problems first, and how do those problems relate to customer experience?
@@ -21,13 +21,15 @@
 A historical portfolio case study built in 2026 using Olist's Brazilian marketplace data from **2016-09-04 to 2018-10-17**. Currency: BRL. No claim that the data represents current market conditions.
 
 ## Start here
-1. Extract this folder. For the simplest setup, place it at `C:\CommercePulse`.
-2. Install/update Microsoft Power BI Desktop on Windows. Enable Power BI project support in Options > Preview features if your version requires it, then restart.
-3. Open `powerbi/CommercePulse.pbip`.
-4. If you extracted elsewhere: Transform data > Manage parameters > set **DataFolder** to the full path of the extracted `data` folder. No trailing slash is needed. If opening reports an initial source-path error, dismiss it, then change the parameter and refresh.
-5. Select **Refresh**. Browse the four page tabs. Clear filters before comparing pages; page slicers are independent.
-6. View > Themes > Browse for themes > select `assets/CommercePulse-theme.json` for the intended palette. Save as PBIX after review if desired.
-7. Complete `docs/desktop-validation.md` before posting screenshots or calling the report finished.
+## Open the dashboard
+
+1. Download CommercePulse_Analysis.pbix using the link above.
+2. Open it in Power BI Desktop on Windows.
+3. Explore the four pages and use the year, state, category and status filters.
+
+The saved report includes imported data. Refreshing requires downloading
+the source dataset and rebuilding the CSVs using the instructions below,
+then updating the DataFolder parameter.
 
 **Validation:** Data integrity and report schema checks passed. The report was opened and refreshed in Power BI Desktop, and manual page and filter checks found no errors.
 
